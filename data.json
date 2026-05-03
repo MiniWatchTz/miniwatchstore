@@ -1,0 +1,239 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Casio G-Shock (Sport / Tough)",
+      "price": 70000,
+      "description": "Built for durability—good for sports or rough use.\n\nShock-resistant (very strong)\nWater-resistant (great for outdoor use)\nBigger and more stylish sporty look\nDesigned to handle extreme conditions.",
+      "image": "http://localhost:5000/uploads/1777011154757-reloj-casio-g-shock.jpg",
+      "category": "Accessories",
+      "images": [
+        "http://localhost:5000/uploads/1777011154757-reloj-casio-g-shock.jpg",
+        "http://localhost:5000/uploads/1777396877083-GA-2100K-1AER-Reloj-Casio-G-Shock.png"
+      ],
+      "reviews": [
+        {
+          "id": 1777394591887,
+          "user": "Baraka Makundi",
+          "rating": 2,
+          "comment": "Bad expreience",
+          "date": "2026-04-28T16:43:11.887Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Seiko 5 Sports Automatic",
+      "price": 110000,
+      "description": "Automatic (no battery)\nVery respected brand worldwide\nStrong, sporty design",
+      "image": "http://localhost:5000/uploads/1777011914657-SRPG35K1.png",
+      "category": "Accessories",
+      "images": [
+        "http://localhost:5000/uploads/1777011914657-SRPG35K1.png"
+      ]
+    },
+    {
+      "name": "Citizen Eco Drive Watch",
+      "price": 200000,
+      "description": "Powered by light (no charging stress)\nVery durable and reliable",
+      "image": "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp",
+      "category": "Accessories",
+      "id": 1777014153282,
+      "images": [
+        "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp"
+      ]
+    },
+    {
+      "name": "Orient Bambino Watch",
+      "price": 140000,
+      "description": "Clean, classy (perfect for official wear)\nLooks like an expensive luxury watch",
+      "images": [
+        "http://localhost:5000/uploads/1777016643222-61CIjxH4LgL.jpg"
+      ],
+      "category": "Accessories",
+      "id": 1777016645175
+    },
+    {
+      "name": "Captain Cook High-Tech Ceramic Skeleton ",
+      "price": 450000,
+      "description": "The Captain Cook High-Tech Ceramic Skeleton showcases its innovative R808 movement, a marvel of contrasts, know-how and clever geometry.",
+      "images": [
+        "http://localhost:5000/uploads/1777104235725-2-042-04-0330.jpg"
+      ],
+      "category": "Accessories",
+      "id": 1777104237585
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "name": "Citizen Eco Drive Watch",
+          "price": 200000,
+          "description": "Powered by light (no charging stress)\nVery durable and reliable",
+          "image": "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp",
+          "category": "Accessories",
+          "id": 1777014153282,
+          "images": [
+            "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp"
+          ],
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 200000,
+      "shipping": {
+        "name": "Edina W Massawe",
+        "address": "ARUSHA, TANZANIA",
+        "city": "ARUSHA",
+        "phone": "0685029054"
+      },
+      "payment": "Lipa Namba (Vodacom)",
+      "id": 1777097889671,
+      "trackingId": "MS-U7TTUCCUR",
+      "date": "2026-04-25T06:18:09.672Z",
+      "status": "Cancelled"
+    },
+    {
+      "items": [
+        {
+          "name": "Orient Bambino Watch",
+          "price": 140000,
+          "description": "Clean, classy (perfect for official wear)\nLooks like an expensive luxury watch",
+          "images": [
+            "http://localhost:5000/uploads/1777016558426-images.jpg",
+            "http://localhost:5000/uploads/1777016562993-FAC00001B-328x328.jpg",
+            "http://localhost:5000/uploads/1777016643222-61CIjxH4LgL.jpg"
+          ],
+          "category": "Accessories",
+          "id": 1777016645175,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 140000,
+      "shipping": {
+        "name": "Joseph Kavishe",
+        "address": "NHC, Morogoro St, Arusha 23105",
+        "city": "Arusha",
+        "phone": "0745453491"
+      },
+      "payment": "Lipa Namba (Vodacom)",
+      "id": 1777099663354,
+      "trackingId": "MS-FCRXVGDQT",
+      "date": "2026-04-25T06:47:43.354Z",
+      "status": "Cancelled"
+    },
+    {
+      "items": [
+        {
+          "name": "Citizen Eco Drive Watch",
+          "price": 200000,
+          "description": "Powered by light (no charging stress)\nVery durable and reliable",
+          "image": "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp",
+          "category": "Accessories",
+          "id": 1777014153282,
+          "images": [
+            "http://localhost:5000/uploads/1777014101999-BM7530-50X.webp"
+          ],
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 200000,
+      "shipping": {
+        "name": "Baraka Makundi",
+        "address": "busbora",
+        "city": "Arusha",
+        "phone": "0685029054"
+      },
+      "payment": "Lipa Namba (Vodacom)",
+      "id": 1777201882696,
+      "trackingId": "MS-8OCOU7RHZ",
+      "date": "2026-04-26T11:11:22.696Z",
+      "status": "Cancelled"
+    },
+    {
+      "items": [
+        {
+          "id": 2,
+          "name": "Seiko 5 Sports Automatic",
+          "price": 110000,
+          "description": "Automatic (no battery)\nVery respected brand worldwide\nStrong, sporty design",
+          "image": "http://localhost:5000/uploads/1777011914657-SRPG35K1.png",
+          "category": "Accessories",
+          "images": [
+            "http://localhost:5000/uploads/1777011914657-SRPG35K1.png"
+          ],
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 110000,
+      "shipping": {
+        "name": "f",
+        "address": "d",
+        "city": "d",
+        "phone": "d"
+      },
+      "payment": "Lipa Namba (Vodacom)",
+      "id": 1777393905818,
+      "trackingId": "MS-7YPKRCG6I",
+      "date": "2026-04-28T16:31:45.818Z",
+      "status": "Cancelled"
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "name": "Casio G-Shock (Sport / Tough)",
+          "price": 70000,
+          "description": "Built for durability—good for sports or rough use.\n\nShock-resistant (very strong)\nWater-resistant (great for outdoor use)\nBigger and more stylish sporty look\nDesigned to handle extreme conditions.",
+          "image": "http://localhost:5000/uploads/1777011154757-reloj-casio-g-shock.jpg",
+          "category": "Accessories",
+          "images": [
+            "http://localhost:5000/uploads/1777011154757-reloj-casio-g-shock.jpg"
+          ],
+          "reviews": [
+            {
+              "id": 1777394591887,
+              "user": "Baraka Makundi",
+              "rating": 2,
+              "comment": "Bad expreience",
+              "date": "2026-04-28T16:43:11.887Z"
+            }
+          ],
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 70000,
+      "shipping": {
+        "name": "Fadhili D",
+        "address": "NHC, Morogoro St, Arusha 23105",
+        "city": "Arusha",
+        "phone": "0685029054"
+      },
+      "payment": "Lipa Namba (Vodacom)",
+      "id": 1777396025201,
+      "trackingId": "MS-PR7CLAQF4",
+      "date": "2026-04-28T17:07:05.201Z",
+      "status": "Pending"
+    }
+  ],
+  "admins": [
+    {
+      "username": "Fadhili Sumayan",
+      "password": "1234"
+    }
+  ],
+  "pages": {
+    "contact": {
+      "title": "Contact Support",
+      "content": ""
+    },
+    "about": {
+      "title": "Our Journey",
+      "content": "MiniWatch Store is your trusted destination for stylish, high-quality watches in Tanzania. We bring you a carefully selected collection of modern, classic, and sporty timepieces designed to match your lifestyle.\n\nOur goal is simple — to offer affordable elegance without compromising on quality. Whether you're looking for an everyday watch or a statement piece, MiniWatch Store delivers reliability, style, and value in every product.\n\nBased in Tanzania, we are committed to providing a smooth shopping experience, fast delivery, and excellent customer service.\n"
+    },
+    "policy": {
+      "title": "MiniWatch Store Policies",
+      "content": "**1. Ordering & Payment**\nWe accept secure payments through trusted methods. Orders are processed only after payment confirmation. Please ensure your details are accurate before completing your purchase.\n\n**2. Delivery**\nWe deliver across Tanzania. Orders are processed within 1–2 business days, and delivery times may vary depending on your location. We aim to get your order to you as quickly as possible.\n\n**3. Returns & Exchanges**\nIf you receive a defective or incorrect item, you can request a return or exchange within 3 days of delivery. The item must be unused and in its original packaging.\n\n**4. Refunds**\nRefunds are issued only for approved returns. Once your item is received and inspected, your refund will be processed within a few business days.\n\n**5. Product Quality**\nWe ensure all our watches meet quality standards. However, slight variations in color or design may occur due to lighting or display differences.\n\n**6. Customer Responsibility**\nCustomers are responsible for providing accurate delivery information and being available to receive orders.\n\n**7. Policy Updates**\nMiniWatch Store reserves the right to update these policies at any time. Changes will be communicated clearly on our platform.\n"
+    }
+  }
+}
